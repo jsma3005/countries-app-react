@@ -1,0 +1,77 @@
+.countryName{
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+.countryImg{
+    text-align: center;
+}
+
+.countryImg img{
+    width: 30%;
+}
+
+.countryCard{
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.cardBody{
+    width: 60%;
+    margin: 0 auto;
+}
+.cardBody p{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.cardBody p span{
+    font-weight: normal !important;
+}
+
+@media screen and (max-width: 1200px){
+    .cardBody{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .cardBody{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .countryImg img{
+        width: 40%;
+    }
+    .cardBody{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 671px){
+    .cardBody p{
+        font-size: 22px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cardBody p span{
+        margin-top: 10px;
+    }
+    .countryName{
+        font-size: 35px;
+    }
+    .countryCard{
+        padding: 10px !important;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .countryName{
+        font-size: 30px !important;
+    }
+}
